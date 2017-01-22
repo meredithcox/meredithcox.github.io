@@ -1,0 +1,12 @@
+body{
+	text-align: center;
+	font-size:100%;
+	font-color:black;
+	font-family:Arial;
+	margin:0em;
+	background-color: white /*#ff5050*/;
+	background-image:url('http://i67.tinypic.com/2dha2yg.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+}

@@ -1,0 +1,192 @@
+body{
+	text-align: center;
+	font-size:100%;
+	font-color:black;
+	font-family:Arial;
+	margin:0em;
+	background-color: white /*#ff5050*/;
+	background-image:url('http://i65.tinypic.com/1znbvwp.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+h1{
+	padding:0;
+	margin:0;
+}
+
+h2{
+	font-family: 'Teko', sans-serif;
+}
+
+
+li a{
+	display: block;
+	text-decoration:none;
+	font-family: 'Teko', sans-serif;
+	text-align:center;
+	color:/*#00ffff*/white;
+	transition: font-size .5s;
+	padding:2.07em;
+	margin:0;
+}
+
+li a:hover{
+	animation-name:blinker;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	font-size:1.3em;
+
+
+}
+
+p{
+	font-family: 'Teko', sans-serif;
+	font-size:1.5em;
+	margin:0;
+	padding:0;
+
+}
+
+
+ul{
+
+	position:absolute;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#aboutme{
+	background-color:#FFCE00;
+	position:absolute;
+	width:10em;
+	right:5em;
+	top:15em;
+	padding:3em;
+	opacity:1;
+
+}
+#aboutme p{
+	color:white;
+	opacity:1;
+}
+
+#aboutpage{
+	height:30em;
+	width:30em;
+	background-color:white;
+	border-style:solid;
+	border-color: #007849;
+	border-width: 2em;
+	padding:1em;
+	position:absolute;
+	z-index:9999;
+	left:33%;
+	top:30%;
+	display:none;
+	border-radius: 3%;
+}
+
+#contactpage{
+	height:30em;
+	width:30em;
+	background-color:white;
+	border-style:solid;
+	border-color: #262228;
+	border-width: 2em;
+	padding:1em;
+	position:absolute;
+	z-index:9999;
+	left:33%;
+	top:30%;
+	display:none;
+	border-radius: 3%;
+}
+
+#header{
+	font-family: 'Satisfy', cursive;
+	font-size:3em;
+	color:/*#00ffff*/white;
+	padding:0;
+	margin:.5em;
+	position:absolute;
+	left:35%;
+
+}
+
+#navbar{
+	font-size:1.5em;
+	align-self: left;
+	font-size:2em;
+}
+
+#projectpage{
+	height:30em;
+	width:30em;
+	background-color:white;
+	border-style:solid;
+	border-color: #037584;
+	border-width: 2em;
+	padding:1em;
+	position:absolute;
+	z-index:9999;
+	left:33%;
+	top:30%;
+	display:none;
+	border-radius: 3%;
+}
+
+#researchpage{
+	height:30em;
+	width:30em;
+	background-color:white;
+	border-style:solid;
+	border-color: #FFCE00;
+	border-width: 2em;
+	padding:1em;
+	position:absolute;
+	z-index:9999;
+	left:33%;
+	top:30%;
+	display:none;
+	border-radius: 3%;
+}
+
+#topheader{
+	padding:0;
+	margin:0;
+	height:3em;
+	background-color: blue;
+	opacity: .7;
+	text-align:right;
+	position:inline;
+}
+
+#topheader p{
+	color:white;
+	opacity:1;
+	font-size:2em;
+	margin-right: .5em
+}
+
+#topheader a{
+	text-decoration: none;
+	color:white;
+}
+
+#topheader a:hover{
+	animation-name:blinker;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	font-size:1em;
+}
+
+@keyframes blinker{
+	from{color:#00ffff;}
+	to{color:#4286f4}
+
+}
