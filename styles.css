@@ -87,6 +87,7 @@ ul{
 	top:30%;
 	display:none;
 	border-radius: 3%;
+	padding:2em;
 }
 
 #contactpage{
@@ -99,10 +100,11 @@ ul{
 	padding:1em;
 	position:absolute;
 	z-index:9999;
-	left:33%;
+	left:35%;
 	top:30%;
 	display:none;
 	border-radius: 3%;
+	padding:2em;
 }
 
 #header{
@@ -132,10 +134,11 @@ ul{
 	padding:1em;
 	position:absolute;
 	z-index:9999;
-	left:33%;
+	left:31%;
 	top:30%;
 	display:none;
 	border-radius: 3%;
+	padding:2em;
 }
 
 #researchpage{
@@ -148,7 +151,7 @@ ul{
 	padding:1em;
 	position:absolute;
 	z-index:9999;
-	left:33%;
+	left:29%;
 	top:30%;
 	display:none;
 	border-radius: 3%;

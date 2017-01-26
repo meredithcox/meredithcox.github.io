@@ -4,6 +4,7 @@ colors=['#FFCE00','#037584','#007849','#262228']
 
 currentColor = 0;
 
+
 $('li').each(function(i){
 	this.style.backgroundColor = colors[currentColor];
 	currentColor++;
