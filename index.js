@@ -11,6 +11,28 @@ $('li').each(function(i){
 });
 
 $('#researchbutton').click(function() {
+	$('html,body').animate({
+		scrollTop: $("#researchsection").offset().top},
+		'slow');
+	});
+$('#projectsbutton').click(function() {
+	$('html,body').animate({
+		scrollTop: $("#projectssection").offset().top},
+		'slow');
+	});
+$('#aboutbutton').click(function() {
+	$('html,body').animate({
+		scrollTop: $("#aboutsection").offset().top},
+		'slow');
+	});
+$('#contactbutton').click(function() {
+	$('html,body').animate({
+		scrollTop: $("#contactsection").offset().top},
+		'slow');
+	});
+
+/**
+$('#researchbutton').click(function() {
 	$('#researchpage').toggle('slow',function(){
 		return false;
 	});
@@ -38,4 +60,6 @@ $('#contactbutton').click(function() {
 	return false;
 });        
 
+
+**/
 
