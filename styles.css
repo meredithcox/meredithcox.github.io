@@ -199,3 +199,69 @@ ul{
 	to{color:#4286f4}
 
 }
+
+#researchsection{
+	height:40em;
+	width:100%;
+	background-color: #FFCE00;
+	position:absolute;
+	left:0%;
+	right:0%;
+	top:50em;
+}
+#projectssection{
+	height:40em;
+	width:100%;
+	background-color: #037584;
+	position:absolute;
+	left:0%;
+	right:0%;
+	top:90em;
+}
+#aboutsection{
+	height:40em;
+	width:100%;
+	background-color: #007849;
+	position:absolute;
+	left:0%;
+	right:0%;
+	top:130em;
+}
+#contactsection{
+	height:40em;
+	width:100%;
+	background-color: #262228;
+	position:absolute;
+	left:0%;
+	right:0%;
+	top:170em;
+}
+
+#triangle-down1 {
+	width: 100;
+	height: 100;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-top: 100px solid #FFCE00;
+	position:absolute;
+	top:88em;
+	left:43%;
+}#triangle-down2 {
+	width: 100;
+	height: 100;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-top: 100px solid #037584;
+	position:absolute;
+	top:128em;
+	left:43%;
+}#triangle-down3 {
+	width: 100;
+	height: 100;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-top: 100px solid #007849;
+	position:absolute;
+	top:168em;
+	left:43%;
+}
